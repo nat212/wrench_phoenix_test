@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:alpine
+    container_name: wrenchdb
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_USER=wrench
+      - POSTGRES_PASSWORD=wrench-app
+      - POSTGRES_DB=wrench
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    ports:
+      - 5434:5432
+    volumes:
+      - wrenchdb:/var/lib/postgresql/data
+
+volumes:
+  wrenchdb:

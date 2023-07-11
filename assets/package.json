@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "esbuild": "^0.18.11",
+    "esbuild-svelte": "^0.7.4",
+    "svelte": "^4.0.5"
+  },
+  "dependencies": {
+    "phoenix": "../deps/phoenix",
+    "phoenix_html": "../deps/phoenix_html",
+    "phoenix_live_view": "../deps/phoenix_live_view"
+  }
+}
