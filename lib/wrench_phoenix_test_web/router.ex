@@ -20,6 +20,7 @@ defmodule WrenchPhoenixTestWeb.Router do
 
     get "/", PageController, :home
     get "/hello", HelloController, :index
+    get "/hello/:messenger", HelloController, :show
   end
 
   scope "/api/v1", WrenchPhoenixTestWeb do
