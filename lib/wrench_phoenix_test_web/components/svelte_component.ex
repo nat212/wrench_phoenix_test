@@ -1,13 +1,13 @@
-defmodule WrenchPhoenixTestWeb.SvelteComponent do
-  use WrenchPhoenixTestWeb, :live_component
+# defmodule WrenchPhoenixTestWeb.SvelteComponent do
+#   use WrenchPhoenixTestWeb, :live_component
 
-  def render(assigns) do
-    ~H"""
+#   def render(assigns) do
+#     ~H"""
 
-    """
-  end
+#     """
+#   end
 
-  def mount(socket) do
-    {:ok, socket}
-  end
-end
+#   def mount(socket) do
+#     {:ok, socket}
+#   end
+# end
