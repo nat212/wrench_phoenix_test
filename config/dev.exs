@@ -2,10 +2,10 @@ import Config
 
 # Configure your database
 config :wrench_phoenix_test, WrenchPhoenixTest.Repo,
-  username: "wrench",
-  password: "wrench-app",
+  username: "postgres",
+  password: "postgres",
   hostname: "localhost",
-  database: "wrench",
+  database: "wrench_dev",
   port: 5434,
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
