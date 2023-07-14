@@ -47,6 +47,16 @@
 				"isDefault": true
 			},
 			"label": "mix: Run tests with coverage"
+		},
+		{
+			"type": "shell",
+			"command": "mix",
+			"args": ["ecto.migrate"],
+			"problemMatcher": [
+				"$mixCompileError",
+				"$mixCompileWarning"
+			],
+			"label": "mix: ecto.migrate"
 		}
 	]
 }
