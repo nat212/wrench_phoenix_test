@@ -1,8 +1,8 @@
 {
-	"name": "Elixir, Phoenix, Node.js & PostgresSQL (Community)",
+	"name": "Phoenix",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "elixir",
-	"workspaceFolder": "/workspace",
+	"workspaceFolder": "/workspace/wrench_phoenix_test",
 
 	// Configure tool-specific properties.
 	"customizations": {
