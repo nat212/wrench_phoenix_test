@@ -53,8 +53,10 @@ defmodule WrenchPhoenixTestWeb.Router do
     resources "/orders", OrderController, only: [:create, :show]
   end
 
-  scope "/api/v1", WrenchPhoenixTestWeb do
+  scope "/api", WrenchPhoenixTestWeb do
     pipe_through :api
+
+    resources "/urls", UrlController, except: [:new, :edit]
   end
 
   # Other scopes may use custom stacks.
